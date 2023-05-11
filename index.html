@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <title>Create Screen</title>
 </head>
 <body>
@@ -27,12 +28,12 @@
                                 <label class="label" for="">Title</label>
                             </td>
                             <td class="col2">
-                                <a href="#" class="icon">
-                                    <span class="pencil">
-                                        <img src="" alt="pencil">
+                               <div class="line">
+                                    <span class="icon">
+                                        <i id="pencil" class="fas fa-pencil-alt"></i>
                                     </span>
-                                </a>
-                                <input class="input" type="text" value="Input Title">
+                                    <input class="input" type="text" value="Input Title">
+                               </div>
                             </td>        
                         </tr>
                         <tr class="row2">
@@ -40,29 +41,37 @@
                                 <label class="label" for="">Heading</label>
                             </td>
                             <td class="col2">
-                                <a href="#" class="icon">
-                                    <span class="pencil">
-                                        <img src="" alt="pencil">
+                                <div class="line">
+                                    <span class="icon">
+                                        <i id="pencil" class="fas fa-pencil-alt"></i>
                                     </span>
-                                </a>
-                                <input class="input" type="text" value="Input Heading">
+                                    <input class="input" type="text" value="Input Heading">
+                                </div>
                             </td>        
                         </tr>
                         <tr class="row3">
                             <td class="col1">
                                 <label for="">Details</label>
                             </td>
-                            <td class="col2">
+                            <td class="col2 td3">
                                 <textarea name="details" id="details" cols="" rows="10" >Input Details</textarea>
                             </td>        
                         </tr>
                     </table>
                     <div class="footer">
-                        <input class="button reset" type="submit" value="Reset">
-                    <input type="checkbox" name="view" id="view">View
-                    <input type="checkbox" name="view" id="creating">Continue creating
-                    <input type="checkbox" name="view" id="reading">Continue reading
-                    <input class="button submit" type="submit" value="Submit">
+                        <table class="table2">
+                            <tr class="table2-tr1">
+                                <td class="table2-td1">
+                                    <input class="button reset" type="submit" value="Reset">
+                                </td>
+                                <td class="table2-td2">
+                                    <input type="checkbox" name="view" id="view">View
+                                    <input type="checkbox" name="view" id="creating">Continue creating
+                                    <input type="checkbox" name="view" id="reading">Continue reading
+                                    <input class="button submit" type="submit" value="Submit">
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </form>
             </div>
